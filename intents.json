@@ -1,0 +1,65 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Bonjour", "slt", "cv", "Hello", "Salut", "coucou"],
+         "responses": ["bonjour! comment puis-je vous aider ?", "Ravi de vous revoir!comment puis-je vous aider ?", "comment puis-je vous aider ?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "au revoir", "Goodbye", "a bientot", "bye"],
+         "responses": ["À plus tard :(", "merci de votre visite", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["Comment tu t'appelle", "ton nom", "votre nom?"],
+         "responses": ["vous pouvez m'appelle MedBot.", "Je suis MedBot!", "MedBot."],
+         "context_set": ""
+        },
+        {"tag": "malade",
+         "patterns": ["malade", "je ne me sent pas bien", "ca va pas", ""],
+         "responses": ["Mais qu’est-ce qui s'est passé?", "Qu'est que tu as?"],
+         "context_set": ""
+        },
+        {"tag": "tete",
+        "patterns": ["maux de tete", "la tete qui tourne", "tete?", "tete","j ai un malaise"],
+        "responses": ["prenez une position de confort est ce que c'est la premiere fois?", "Restez assis Cela vous arrive t'il souvent?"],
+
+        "context_set": ""
+        },
+        {"tag": "malaise_un",
+        "patterns": ["Oui c'est la premiere fois","Oui"],
+        "responses": ["Depuis Combien de temp avez vous mal?"],
+        "context_set": ""
+        },
+        {"tag": "malaise_deux",
+        "patterns": ["Se matin", "tout a l'heure", "tout de suite","maintenant"],
+        "responses": ["Est ce que vous prenez des medicaments ?", "Ou sont vos medicaments ?"],
+        "context_set": ""
+        },
+        {"tag": "malaise_trois",
+        "patterns": ["Non je ne prends pas de medicament", "Non pas de medicament?", "Non j n ai pas"],
+        "responses": ["Avez vous ete hospitalise ?"],
+        "context_set": ""
+        },
+        
+        {"tag": "malaise_cinq",
+        "patterns": ["il y a longtemp", "je ne me souviens plus","des annees","jamais etez hospitalise"],
+        "responses": ["Il faut appeler les secours","Il faut aller a l'hostital"],
+        "context_set": ""
+        },
+        {"tag": "merci",
+        "patterns": ["merci a vous", "thanks", "?", "merci"],
+        "responses": ["Bonne guerison a vous :-)", "Repose toi bien!! :-) ","bon rétablissement :-)"],
+        "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["Tu est disponible ?", "Disponible", "Heure"],
+         "responses": ["Tout le temps!","24H/24 7j/7"],
+         "context_set": ""
+        }
+   ]
+}

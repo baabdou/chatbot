@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/baabdou/Documents/Projet Chatbot/TelegrammeBot/model.tflearn"
+all_model_checkpoint_paths: "/home/baabdou/Documents/Projet Chatbot/TelegrammeBot/model.tflearn"
