@@ -36,7 +36,7 @@ numpy==1.16.6
 oauth==1.0.1
 olefile==0.45.1
 pexpect==4.2.1
-Pillow==6.1.0
+Pillow==9.0.0
 protobuf==3.9.1
 ##PyAudio==0.2.11
 ##pycairo==2.6.61
